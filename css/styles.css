@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514E;
+}
+
+p{
+  line-height: 2;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.62rem;
+  color: #dbe2ef;
+}
+
+h2 {
+  font-family: 'Montserrat', cursive;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: 'Montserrat', cursive;
+}
+
+a {
+  color: #dbe2ef;
+  font-family: 'Montserrat', cursive;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #f9f7f7;
+}
+
+
+
+hr{
+  border: dotted #dbe2ef 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.top-container {
+  /*background-color: #112d4e;*/
+  background-image: url("../images/sky2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 480px;
+  width: 100%;
+  padding: 20px;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-container h2{
+  color: #dbe2ef;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.middle-container {
+  margin: 60px 0;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.bottom-container {
+background-color: #3f72af;
+padding: 50px 0 20px;
+}
+
+.copyright{
+  color: #dbe2ef;
+  font: 0.75rem;
+  padding: 20px 0;
+}
+
+.earth {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+.satelite {
+  position: absolute;
+  right: 530px;
+  top: 60px;
+}
+
+.java-image {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.swift-image {
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 60%;
+  margin: 100px auto;
+  text-align: left;
+
+}
+
+.contact-me{
+  margin: 60px auto;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+
+.btn {
+	box-shadow: 0px 0px 0px 2px #dbe2ef;
+	background:linear-gradient(to bottom, #112d4e 5%, #3f72af 100%);
+	background-color:#112d4e;
+	border-radius:9px;
+	/*border:1px solid #112d4e;*/
+	display:inline-block;
+	cursor:pointer;
+	color:#dbe2ef;
+	font-family: 'Montserrat', cursive;
+	font-size:13px;
+	padding:10px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
