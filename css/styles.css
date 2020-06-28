@@ -65,7 +65,7 @@ hr{
 }
 
 .bottom-container {
-background-color: #3f72af;
+background-color: #263859;
 padding: 50px 0 20px;
 }
 
@@ -156,7 +156,8 @@ padding: 50px 0 20px;
 @media (max-width: 1028px) {
   .rotate-earth {
     position: absolute;
-    top: 100%;
-    left: 5%;
+    top: 1%;
+    left: 8%;
+    width: 90%;
   }
 }
