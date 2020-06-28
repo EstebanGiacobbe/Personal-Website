@@ -156,8 +156,7 @@ padding: 50px 0 20px;
 @media (max-width: 1028px) {
   .rotate-earth {
     position: absolute;
+    top: 100%;
     left: 5%;
-    top: 3%;
-    width: 90%;
   }
 }
